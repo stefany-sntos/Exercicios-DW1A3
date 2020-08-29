@@ -1,0 +1,109 @@
+<!--2. Crie um formulário que contenha, no mínimo, um de cada item visto no pdf da aula. Você decide o conteúdo.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário diversificado </title>
+</head>
+<body>
+    <form action="http://www.example.com/subscribe">
+        <fieldset>
+        <legend> Contato </legend>
+        <label> Email: <br> <input type="text" name="email" /> </label> <br> 
+        <label> Celular: <br> <input type="text" name="mobile" /> </label> <br> 
+        <label> Telefone: <br> <input type="text" name="telephone" /> </label> <br> 
+        </fieldset>
+    </form>
+    
+<br/>
+    <form action="http://www.example.com/login.php"
+    <p> Login:
+    <input type="text" name="Login" size "15" maxlength="30" />
+    </p>
+    <p> Senha: 
+    <input type="Senha" name="Senha" size "15" maxlenght="30" />
+    </p>
+</form>
+
+<br/>
+<hr>
+        <form action="http://www.example.com/url" method=post>
+        <p> Insira a URL do seu site: </p>
+        <label for="username"> URL </label>
+        <input type="url" name="depart" />
+        <input type="submit" value="Mandar" />
+        </form>
+
+<br/>
+<hr>
+            <form action="http://www.example.com/email" method=post>
+            <label for="username">Email: </label>
+            <input type="email" name="depart" />
+            </form>
+
+<br/>
+<hr>
+            <form action="http://www.example.com/bookings" method=post>
+            <label for="username"> Data de nascimento: </label>
+            <input type="date" name="depart" />
+            <input type="submit" value="Mandar" />
+            </form>
+
+<br/>
+<hr>
+            <form action="http://www.example.com/animes.php">
+            <p> Escolha o melhor anime:
+            <br>
+            <input type="radio" name="melhor" value="Naruto"/> Naruto
+             <input type="radio" name="melhor" value="Boku no hero" /> Boku no hero
+            <input type="radio" name="melhor" value="One piece" /> One Peice
+            </p>
+
+<br/>
+<hr>
+            <p> Escolha seu filme favorito:
+            <br>
+            <input type="checkbox" name="favorito" value="Harry Potter" /> Harry Potter
+            <input type="checkbox" name="favorito" value="Star Wars" /> Star Wars
+            <input type="checkbox" name="favorito" value="Senhor dos anéis" /> Senhor dos anéis
+            </p>
+
+<br/>
+<hr>
+            <form action="http://www.example.com/upload.php" method="post">
+            <p>Upload de imagem em de sua filme/anime favorito JPG: </p>
+            <input type="file" name="user-image" /> <br>
+            <input type="submit" value="Upload" />
+            </form>
+
+<br/>
+<hr>
+            <p> Em qual dispositivo você assiste filmes/animes? </p>
+            <select name="devices">
+            <option value="Netflix"> Netflix </option>
+            <option value="Amazon prime"> Amazon Prime </option>
+            <option value="HBO"> HBO </option>
+            </select> 
+            </form>
+
+<br/>
+<hr> 
+
+        <form action="http://www.example.com/subscribe.php">
+        <p> Por fim, nos diga o seu nome selecione a sua cor para nos ajudar em uma pesquisa étnico racial. </p>
+        <label> Nome: <input type="text" name="name" /> </label>
+        <br/ >
+        Cor: 
+        <input id="Branco" type="radio" name="color" value="Branco">
+        <label for="Branco"> Branco </label>
+        <input id="Negro" type="radio" name="color" value="Negro">
+        <label for="Negro"> Negro </label>
+        <input id="Pardo" type="radio" name="color" value="Pardo">
+        <label for="Pardo"> Pardo </label>
+        <input id="Amarelo" type="radio" name="color" value="Amarelo">
+        <label for="Amarelo"> Amarelo </label>
+        </form>
+</body>
+</html>
+
