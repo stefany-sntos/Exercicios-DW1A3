@@ -1,0 +1,68 @@
+body
+{
+background-color: green;
+color: black;
+}
+
+.container 
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.container #head 
+{
+padding: 0 80px;
+}
+
+#head h1 
+{
+flex-direction: column;
+align-self: center;
+align-items: center;
+background-color: green;
+display: flex;
+border-radius: 10px;
+}
+
+#form 
+{
+border: solid 6px;
+border-color: black;
+background-color: green;
+width: 500px;
+margin-top: 30px;
+	}
+
+#for 
+{
+align-self: center;
+}
+
+#tit 
+{ 
+margin-left: 10px;
+}
+
+#inp 
+{	
+margin-left: 30px;
+width: 40%;
+border-radius: 1px;
+}
+
+#inn 
+{
+margin-left: 30px;
+border-radius: 8px;
+}
+
+.button 
+{
+height: 40px;
+width: 80px;
+border-radius: 20%;
+margin-left: 60px;
+}

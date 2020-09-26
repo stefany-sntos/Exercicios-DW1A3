@@ -1,0 +1,64 @@
+body 
+{
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: purple;
+}
+
+#calcul 
+{
+border: solid 10px;
+border-color: black;
+width: 200px;
+background-color: blue;
+border-radius: 10px;
+}
+
+#area 
+{
+height: 40px;
+width: 180px;
+margin-left: 5px;
+font-size: 20px;
+border: solid;
+text-align: justify;
+border-radius: 6px;
+text-align: right;
+}
+
+#tecla, #tecla2 
+{
+width: 40px;
+height: 40px;
+margin: 1px 1px 1px 1px;
+margin-left: 5px;
+background-color: blue;
+border-radius: 5px;
+border: solid;
+}
+
+#teclaa 
+{
+width: 40px;
+height: 80px;   
+position: absolute;
+margin: 1px 1px 1px 1px;
+margin-left: 9px;
+background-color: blue;
+border-radius: 5px;
+border: solid;
+}
+
+#tecla0 
+{
+width: 90px;
+height: 40px;
+margin: 1px 1px 1px 1px;
+margin-left: 5px;
+background-color: blue;
+border-radius: 5px;
+border: solid;
+}
